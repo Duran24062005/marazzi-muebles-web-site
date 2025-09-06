@@ -51,8 +51,8 @@ const Header = () => {
           >
             <img 
               src={Logo}
-              alt="Logo Carpintería"
-              className="h-10 w-10 md:h-12 md:w-12 rounded-full object-cover"
+              alt="Logo Carpintería Marazzi Muebles"
+              className="h-25 w-25 md:h-12 md:w-12 rounded-full object-cover"
             />
             <span className={`text-xl md:text-2xl font-bold transition-colors duration-300 ${
               isScrolled ? 'text-primary' : 'text-white'

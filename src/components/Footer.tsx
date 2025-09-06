@@ -1,5 +1,6 @@
 import React from 'react';
 import { Facebook, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import Logo from "../img/marazzi-muebles-logo.jpg";
 
 const Footer = () => {
   const scrollToSection = (sectionId: string) => {
@@ -16,8 +17,8 @@ const Footer = () => {
 
   const openSocialMedia = (platform: string) => {
     const urls = {
-      facebook: 'https://facebook.com/maderacraft',
-      instagram: 'https://instagram.com/maderacraft'
+      facebook: 'https://www.facebook.com/jorgealbertovica',
+      instagram: 'https://www.instagram.com/marazzimuebles/'
     };
     window.open(urls[platform as keyof typeof urls], '_blank');
   };
@@ -29,11 +30,11 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
               <img 
-                src="https://instagram.fbga1-3.fna.fbcdn.net/v/t51.2885-19/118230043_969827806856501_6884968072695689801_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby41MDAuYzIifQ&_nc_ht=instagram.fbga1-3.fna.fbcdn.net&_nc_cat=105&_nc_oc=Q6cZ2QFKxKvUXjE6uj031six_5AS_YjJyPPQaFbOx_0alZas6SucqLoXlFbPecESFUSPKDo&_nc_ohc=-oNMPkRf9d0Q7kNvwHf3JYu&_nc_gid=9eMUI3zF7Iq5uw5d9VohTA&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AfW861FkHnUVaxO9sawaihT42Gcv07CfVXJCO1RLsVMMkw&oe=68B82E32&_nc_sid=7a9f4b"
-                alt="Logo MaderaCraft"
+                src={Logo}
+                alt="Logo Marazzi Muebles"
                 className="h-12 w-12 rounded-full object-cover"
               />
-              <span className="text-2xl font-bold">MaderaCraft</span>
+              <span className="text-2xl font-bold">Marazzi Muebles</span>
             </div>
             <p className="text-cream/90 text-lg leading-relaxed mb-6">
               Somos una empresa familiar con más de 15 años de experiencia en carpintería artesanal. 
@@ -86,8 +87,8 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-accent mt-1 flex-shrink-0" />
                 <span className="text-cream/90">
-                  Av. Industrial 123<br />
-                  Zona Norte, Ciudad
+                  Calle 29 no.3-17 barrio Girardot Bucaramanga<br />
+                  Santander Colombia, Bucaramanga, Colombia
                 </span>
               </div>
               <button 
@@ -95,7 +96,7 @@ const Footer = () => {
                 className="flex items-center space-x-3 hover:text-accent transition-colors duration-300"
               >
                 <Phone className="h-5 w-5 text-accent flex-shrink-0" />
-                <span className="text-cream/90">+52 (55) 1234-5678</span>
+                <span className="text-cream/90">+57 (316) 3098801</span>
               </button>
               <button 
                 onClick={() => {
@@ -113,7 +114,7 @@ const Footer = () => {
 
         <div className="border-t border-white/20 mt-12 pt-8 text-center">
           <p className="text-cream/70">
-            © 2025 MaderaCraft. Todos los derechos reservados. 
+            © 2025 Marazzi Muebles. Todos los derechos reservados. 
             Diseñado con pasión para crear espacios únicos.
           </p>
         </div>
