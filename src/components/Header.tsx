@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import Logo from "../img/marazzi-muebles-logo.jpg";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -49,14 +50,14 @@ const Header = () => {
             className="flex items-center space-x-3 hover:opacity-80 transition-opacity duration-300"
           >
             <img 
-              src="https://instagram.fbga1-3.fna.fbcdn.net/v/t51.2885-19/118230043_969827806856501_6884968072695689801_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby41MDAuYzIifQ&_nc_ht=instagram.fbga1-3.fna.fbcdn.net&_nc_cat=105&_nc_oc=Q6cZ2QFKxKvUXjE6uj031six_5AS_YjJyPPQaFbOx_0alZas6SucqLoXlFbPecESFUSPKDo&_nc_ohc=-oNMPkRf9d0Q7kNvwHf3JYu&_nc_gid=9eMUI3zF7Iq5uw5d9VohTA&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AfW861FkHnUVaxO9sawaihT42Gcv07CfVXJCO1RLsVMMkw&oe=68B82E32&_nc_sid=7a9f4b"
+              src={Logo}
               alt="Logo Carpintería"
               className="h-10 w-10 md:h-12 md:w-12 rounded-full object-cover"
             />
             <span className={`text-xl md:text-2xl font-bold transition-colors duration-300 ${
               isScrolled ? 'text-primary' : 'text-white'
             }`}>
-              MaderaCraft
+              Marazzi Muebles
             </span>
           </button>
 
