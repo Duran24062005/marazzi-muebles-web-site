@@ -50,7 +50,7 @@ ${formData.message}
   const handleEmailContact = () => {
     const subject = encodeURIComponent('Consulta sobre servicios de carpintería');
     const body = encodeURIComponent('Hola, me interesa conocer más sobre sus servicios de carpintería. Por favor contáctenme para discutir mi proyecto.');
-    window.open(`mailto:alexisdurangomez588@gmail.com?subject=${subject}&body=${body}`, '_self');
+    window.open(`mailto:jorgevillamizarcasa21@hotmail.com?subject=${subject}&body=${body}`, '_self');
   };
 
   const openGoogleMaps = () => {
@@ -81,7 +81,7 @@ ${formData.message}
     {
       icon: Mail,
       title: 'Email',
-      content: 'info@maderacraft.com',
+      content: 'jorgevillamizarcasa21@hotmail.com',
       action: handleEmailContact,
     },
     {

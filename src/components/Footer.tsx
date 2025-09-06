@@ -106,7 +106,7 @@ const Footer = () => {
                 className="flex items-center space-x-3 hover:text-accent transition-colors duration-300"
               >
                 <Mail className="h-5 w-5 text-accent flex-shrink-0" />
-                <span className="text-cream/90">info@maderacraft.com</span>
+                <span className="text-cream/90">jorgevillamizarcasa21@hotmail.com</span>
               </button>
             </div>
           </div>
