@@ -33,7 +33,7 @@ ${formData.message}
     `.trim();
 
     const encodedMessage = encodeURIComponent(whatsappMessage);
-    const phoneNumber = '525512345678'; // Reemplazar con el número real
+    const phoneNumber = '+57 316 3098801'; // Reemplazar con el número real
     
     // Abrir WhatsApp con el mensaje
     window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, '_blank');
@@ -44,18 +44,18 @@ ${formData.message}
   };
 
   const handleDirectCall = () => {
-    window.open('tel:+525512345678', '_self');
+    window.open('tel:+57 316 3098801', '_self');
   };
 
   const handleEmailContact = () => {
     const subject = encodeURIComponent('Consulta sobre servicios de carpintería');
     const body = encodeURIComponent('Hola, me interesa conocer más sobre sus servicios de carpintería. Por favor contáctenme para discutir mi proyecto.');
-    window.open(`mailto:info@maderacraft.com?subject=${subject}&body=${body}`, '_self');
+    window.open(`mailto:alexisdurangomez588@gmail.com?subject=${subject}&body=${body}`, '_self');
   };
 
   const openGoogleMaps = () => {
     // Coordenadas de ejemplo - reemplazar con la ubicación real
-    const address = encodeURIComponent('Av. Industrial 123, Zona Norte, Ciudad');
+    const address = encodeURIComponent('Calle 29 no.3-17 barrio Girardot Bucaramanga Santander Colombia');
     window.open(`https://www.google.com/maps/search/?api=1&query=${address}`, '_blank');
   };
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -69,13 +69,13 @@ ${formData.message}
     {
       icon: MapPin,
       title: 'Dirección',
-      content: 'Av. Industrial 123, Zona Norte, Ciudad',
+      content: 'Calle 29 no.3-17 barrio Girardot Bucaramanga Santander Colombia',
       action: openGoogleMaps,
     },
     {
       icon: Phone,
       title: 'Teléfono',
-      content: '+52 (55) 1234-5678',
+      content: '+57 316 3098801',
       action: handleDirectCall,
     },
     {

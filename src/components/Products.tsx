@@ -9,7 +9,7 @@ const Products = () => {
 
   const requestQuote = (productTitle: string) => {
     const message = encodeURIComponent(`¡Hola! Me interesa obtener una cotización para: ${productTitle}. ¿Podrían proporcionarme más información sobre precios y tiempos de entrega?`);
-    const phoneNumber = '525512345678'; // Reemplazar con el número real
+    const phoneNumber = '+57 316 3098801'; // Reemplazar con el número real
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
   const products = [
