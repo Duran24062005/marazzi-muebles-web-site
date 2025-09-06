@@ -16,7 +16,7 @@ const Hero = () => {
 
   const handleWhatsAppContact = () => {
     const message = encodeURIComponent('¡Hola! Me interesa conocer más sobre sus servicios de carpintería. ¿Podrían proporcionarme información sobre sus productos y precios?');
-    const phoneNumber = '525512345678'; // Reemplazar con el número real
+    const phoneNumber = '+57 316 3098801'; // Reemplazar con el número real
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
   return (
