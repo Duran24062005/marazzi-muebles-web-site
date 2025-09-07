@@ -19,28 +19,28 @@ const GalleryPage = () => {
     // Muebles de Sala
     {
       id: 1,
-      src: '../../marazzi-works/file1.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file1.jpeg',
       title: 'Sofá Artesanal Premium',
       category: 'sala',
       description: 'Sofá de tres plazas en madera de roble con tapizado en cuero genuino. Diseño ergonómico que combina comodidad y elegancia.'
     },
     {
       id: 2,
-      src: '../../marazzi-works/file2.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file2.jpeg',
       title: 'Mesa de Centro Moderna',
       category: 'sala',
       description: 'Mesa de centro con diseño minimalista en madera de nogal. Perfecta para espacios contemporáneos.'
     },
     {
       id: 3,
-      src: '../../marazzi-works/file3.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file3.jpeg',
       title: 'Estantería Flotante',
       category: 'sala',
       description: 'Sistema de estanterías flotantes con acabado natural. Maximiza el espacio y añade funcionalidad.'
     },
     {
       id: 4,
-      src: '../../marazzi-works/file4.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file4.jpeg',
       title: 'Sillón Individual de Diseño',
       category: 'sala',
       description: 'Sillón individual con estructura de madera maciza y tapizado premium. Ideal para rincones de lectura.'
@@ -49,28 +49,28 @@ const GalleryPage = () => {
     // Muebles de Dormitorio
     {
       id: 5,
-      src: '../../marazzi-works/file5.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file5.jpeg',
       title: 'Cama King Size Personalizada',
       category: 'dormitorio',
       description: 'Cama king size con cabecera tapizada y base en madera maciza. Diseño exclusivo adaptado a tus necesidades.'
     },
     {
       id: 6,
-      src: '../../marazzi-works/file6.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file6.jpeg',
       title: 'Closet Empotrado',
       category: 'dormitorio',
       description: 'Closet a medida con sistema de organización optimizado. Aprovecha cada centímetro de tu espacio.'
     },
     {
       id: 7,
-      src: '../../marazzi-works/file7.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file7.jpeg',
       title: 'Mesa de Noche Elegante',
       category: 'dormitorio',
       description: 'Mesa de noche con cajones y acabado en laca brillante. Funcionalidad y estilo en perfecta armonía.'
     },
     {
       id: 8,
-      src: '../../marazzi-works/file8.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file8.jpeg',
       title: 'Cómoda Vintage',
       category: 'dormitorio',
       description: 'Cómoda con estilo vintage restaurado. Piezas únicas con historia y carácter.'
@@ -79,21 +79,21 @@ const GalleryPage = () => {
     // Cocinas
     {
       id: 9,
-      src: '../../marazzi-works/file9.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file9.jpeg',
       title: 'Cocina Integral Moderna',
       category: 'cocina',
       description: 'Cocina integral con isla central y acabados premium. Diseño funcional para el chef moderno.'
     },
     {
       id: 10,
-      src: '../../marazzi-works/file10.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file10.jpeg',
       title: 'Mueble de Cocina Clásico',
       category: 'cocina',
       description: 'Gabinetes de cocina con diseño tradicional y herrajes de calidad. Elegancia atemporal.'
     },
     {
       id: 11,
-      src: '../../marazzi-works/file11.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file11.jpeg',
       title: 'Isla de Cocina Premium',
       category: 'cocina',
       description: 'Isla de cocina con superficie de trabajo amplia y almacenamiento integrado.'
@@ -102,28 +102,28 @@ const GalleryPage = () => {
     // Puertas
     {
       id: 12,
-      src: '../../marazzi-works/file12.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file12.jpeg',
       title: 'Puerta de Entrada Principal',
       category: 'puertas',
       description: 'Puerta maciza con tallados artesanales y herrajes de seguridad. Primera impresión memorable.'
     },
     {
       id: 13,
-      src: '../../marazzi-works/file13.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file13.jpeg',
       title: 'Puertas Interiores',
       category: 'puertas',
       description: 'Set de puertas interiores con acabado en madera natural. Continuidad de estilo en todo el hogar.'
     },
     {
       id: 14,
-      src: '../../marazzi-works/file14.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file14.jpeg',
       title: 'Puerta Corrediza',
       category: 'puertas',
       description: 'Puerta corrediza con sistema de rieles ocultos. Solución elegante para espacios reducidos.'
     },
     {
       id: 15,
-      src: '../../marazzi-works/file15.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file15.jpeg',
       title: 'Puerta de Vidrio Templado',
       category: 'puertas',
       description: 'Puerta con paneles de vidrio templado y marco de madera. Luminosidad y privacidad balanceadas.'
@@ -132,196 +132,196 @@ const GalleryPage = () => {
     // Proyectos Especiales
     {
       id: 16,
-      src: '../../marazzi-works/file16.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file16.jpeg',
       title: 'Biblioteca Personalizada',
       category: 'especiales',
       description: 'Biblioteca de piso a techo con escalera incluida. El sueño de todo amante de los libros.'
     },
     {
       id: 17,
-      src: '../../marazzi-works/file17.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file17.jpeg',
       title: 'Oficina en Casa',
       category: 'especiales',
       description: 'Escritorio y estanterías integradas para home office. Productividad y estilo en tu hogar.'
     },
     {
       id: 18,
-      src: '../../marazzi-works/file18.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file18.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 19,
-      src: '../../marazzi-works/file19.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file19.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 20,
-      src: '../../marazzi-works/file20.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file20.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 21,
-      src: '../../marazzi-works/file21.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file21.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 22,
-      src: '../../marazzi-works/file22.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file22.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 23,
-      src: '../../marazzi-works/file23.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file23.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 24,
-      src: '../../marazzi-works/file24.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file24.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 25,
-      src: '../../marazzi-works/file25.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file25.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 26,
-      src: '../../marazzi-works/file26.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file26.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 27,
-      src: '../../marazzi-works/file27.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file27.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 28,
-      src: '../../marazzi-works/file28.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file28.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 29,
-      src: '../../marazzi-works/file29.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file29.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 30,
-      src: '../../marazzi-works/file30.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file30.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 31,
-      src: '../../marazzi-works/file31.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file31.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 32,
-      src: '../../marazzi-works/file32.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file32.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 33,
-      src: '../../marazzi-works/file33.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file33.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 34,
-      src: '../../marazzi-works/file34.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file34.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 35,
-      src: '../../marazzi-works/file35.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file35.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 36,
-      src: '../../marazzi-works/file36.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file36.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 37,
-      src: '../../marazzi-works/file37.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file37.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 38,
-      src: '../../marazzi-works/file38.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file38.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 39,
-      src: '../../marazzi-works/file39.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file39.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 40,
-      src: '../../marazzi-works/file40.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file40.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 41,
-      src: '../../marazzi-works/file41.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file41.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 42,
-      src: '../../marazzi-works/file42.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file42.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     },
     {
       id: 43,
-      src: '../../marazzi-works/file43.jpeg',
+      src: 'https://raw.githubusercontent.com/Duran24062005/marazzi-muebles-web-site/refs/heads/main/marazzi-works/file43.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
