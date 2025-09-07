@@ -3,8 +3,16 @@ import { ExternalLink, ArrowRight } from 'lucide-react';
 
 const Products = () => {
   const openProductGallery = (productTitle: string) => {
-    // Simular apertura de galería de producto
-    alert(`Abriendo galería de ${productTitle}. En una implementación real, esto abriría un modal con más imágenes y detalles del producto.`);
+    // Navegar a la galería
+    const element = document.getElementById('galeria');
+    if (element) {
+      const headerHeight = 80;
+      const elementPosition = element.offsetTop - headerHeight;
+      window.scrollTo({
+        top: elementPosition,
+        behavior: 'smooth'
+      });
+    }
   };
 
   const requestQuote = (productTitle: string) => {

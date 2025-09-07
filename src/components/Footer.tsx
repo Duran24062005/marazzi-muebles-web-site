@@ -65,6 +65,7 @@ const Footer = () => {
                 { name: 'Inicio', id: 'inicio' },
                 { name: 'Servicios', id: 'servicios' },
                 { name: 'Productos', id: 'productos' },
+                { name: 'Galería', id: 'galeria' },
                 { name: 'Testimonios', id: 'testimonios' },
                 { name: 'Contacto', id: 'contacto' }
               ].map((link) => (
