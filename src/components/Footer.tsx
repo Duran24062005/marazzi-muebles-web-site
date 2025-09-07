@@ -1,18 +1,31 @@
 import React from 'react';
 import { Facebook, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import Logo from "../img/marazzi-muebles-logo.jpg";
 
 const Footer = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
+
   const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      const headerHeight = 80;
-      const elementPosition = element.offsetTop - headerHeight;
-      window.scrollTo({
-        top: elementPosition,
-        behavior: 'smooth'
-      });
+    if (!isHomePage) {
+      navigate('/', { state: { scrollTo: sectionId } });
+    } else {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        const headerHeight = 80;
+        const elementPosition = element.offsetTop - headerHeight;
+        window.scrollTo({
+          top: elementPosition,
+          behavior: 'smooth'
+        });
+      }
     }
+  };
+
+  const handleGalleryClick = () => {
+    navigate('/galeria');
   };
 
   const openSocialMedia = (platform: string) => {
@@ -65,13 +78,13 @@ const Footer = () => {
                 { name: 'Inicio', id: 'inicio' },
                 { name: 'Servicios', id: 'servicios' },
                 { name: 'Productos', id: 'productos' },
-                { name: 'Galería', id: 'galeria' },
+                { name: 'Galería', id: 'galeria', isGallery: true },
                 { name: 'Testimonios', id: 'testimonios' },
                 { name: 'Contacto', id: 'contacto' }
               ].map((link) => (
                 <li key={link}>
                   <button
-                    onClick={() => scrollToSection(link.id)}
+                    onClick={() => link.isGallery ? handleGalleryClick() : scrollToSection(link.id)}
                     className="text-cream/90 hover:text-accent transition-colors duration-300"
                   >
                     {link.name}

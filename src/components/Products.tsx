@@ -1,18 +1,12 @@
 import React from 'react';
 import { ExternalLink, ArrowRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const Products = () => {
+  const navigate = useNavigate();
+
   const openProductGallery = (productTitle: string) => {
-    // Navegar a la galería
-    const element = document.getElementById('galeria');
-    if (element) {
-      const headerHeight = 80;
-      const elementPosition = element.offsetTop - headerHeight;
-      window.scrollTo({
-        top: elementPosition,
-        behavior: 'smooth'
-      });
-    }
+    navigate('/galeria');
   };
 
   const requestQuote = (productTitle: string) => {

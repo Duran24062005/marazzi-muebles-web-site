@@ -1,10 +1,14 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import Logo from "../img/marazzi-muebles-logo.jpg";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -15,22 +19,32 @@ const Header = () => {
   }, []);
 
   const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      const headerHeight = 80;
-      const elementPosition = element.offsetTop - headerHeight;
-      window.scrollTo({
-        top: elementPosition,
-        behavior: 'smooth'
-      });
+    if (!isHomePage) {
+      navigate('/', { state: { scrollTo: sectionId } });
+    } else {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        const headerHeight = 80;
+        const elementPosition = element.offsetTop - headerHeight;
+        window.scrollTo({
+          top: elementPosition,
+          behavior: 'smooth'
+        });
+      }
     }
     setIsMobileMenuOpen(false);
   };
+
+  const handleGalleryClick = () => {
+    navigate('/galeria');
+    setIsMobileMenuOpen(false);
+  };
+
   const navItems = [
     { href: '#inicio', label: 'Inicio' },
     { href: '#servicios', label: 'Servicios' },
     { href: '#productos', label: 'Productos' },
-    { href: '#galeria', label: 'Galería' },
+    { href: '#galeria', label: 'Galería', isGallery: true },
     { href: '#testimonios', label: 'Testimonios' },
     { href: '#contacto', label: 'Contacto' },
   ];
@@ -67,7 +81,7 @@ const Header = () => {
             {navItems.map((item) => (
               <button
                 key={item.href}
-                onClick={() => scrollToSection(item.href.substring(1))}
+                onClick={() => item.isGallery ? handleGalleryClick() : scrollToSection(item.href.substring(1))}
                 className={`font-medium transition-colors duration-300 hover:text-primary-light ${
                   isScrolled ? 'text-gray-700 hover:text-primary' : 'text-white hover:text-cream'
                 }`}
@@ -105,7 +119,7 @@ const Header = () => {
               {navItems.map((item) => (
                 <button
                   key={item.href}
-                  onClick={() => scrollToSection(item.href.substring(1))}
+                  onClick={() => item.isGallery ? handleGalleryClick() : scrollToSection(item.href.substring(1))}
                   className="block w-full text-left text-gray-700 font-medium hover:text-primary transition-colors duration-300"
                 >
                   {item.label}
