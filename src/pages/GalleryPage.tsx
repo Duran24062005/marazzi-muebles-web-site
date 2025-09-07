@@ -404,7 +404,7 @@ const GalleryPage = () => {
               <button
                 key={category.id}
                 onClick={() => setSelectedCategory(category.id)}
-                className={`px-6 py-3 rounded-full font-semibold transition-all duration-300 ${
+                className={`hidden px-6 py-3 rounded-full font-semibold transition-all duration-300 ${
                   selectedCategory === category.id
                     ? 'bg-primary text-white shadow-lg transform scale-105'
                     : 'bg-white text-gray-700 hover:bg-primary hover:text-white shadow-md'
@@ -447,7 +447,7 @@ const GalleryPage = () => {
                     Ver Detalles
                   </div>
                 </div>
-                <div className="p-4">
+                <div className="p-4 hidden">
                   <h3 className="text-lg font-semibold text-primary-dark mb-2 line-clamp-2">
                     {image.id + ' - ' + image.title}
                   </h3>
@@ -507,7 +507,7 @@ const GalleryPage = () => {
                 alt={selectedImage.title}
                 className="w-full h-auto max-h-[70vh] object-contain"
               />
-              <div className="p-6">
+              <div className="p-6 hidden">
                 <h3 className="text-2xl font-bold text-primary-dark mb-3">
                   {selectedImage.title}
                 </h3>
