@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { X, ChevronLeft, ChevronRight, ZoomIn, ExternalLink, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -19,28 +19,28 @@ const GalleryPage = () => {
     // Muebles de Sala
     {
       id: 1,
-      src: 'https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: '../../marazzi-works/file1.jpeg',
       title: 'Sofá Artesanal Premium',
       category: 'sala',
       description: 'Sofá de tres plazas en madera de roble con tapizado en cuero genuino. Diseño ergonómico que combina comodidad y elegancia.'
     },
     {
       id: 2,
-      src: 'https://images.pexels.com/photos/1571471/pexels-photo-1571471.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: '../../marazzi-works/file2.jpeg',
       title: 'Mesa de Centro Moderna',
       category: 'sala',
       description: 'Mesa de centro con diseño minimalista en madera de nogal. Perfecta para espacios contemporáneos.'
     },
     {
       id: 3,
-      src: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: '../../marazzi-works/file3.jpeg',
       title: 'Estantería Flotante',
       category: 'sala',
       description: 'Sistema de estanterías flotantes con acabado natural. Maximiza el espacio y añade funcionalidad.'
     },
     {
       id: 4,
-      src: 'https://images.pexels.com/photos/1571475/pexels-photo-1571475.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: '../../marazzi-works/file4.jpeg',
       title: 'Sillón Individual de Diseño',
       category: 'sala',
       description: 'Sillón individual con estructura de madera maciza y tapizado premium. Ideal para rincones de lectura.'
@@ -49,28 +49,28 @@ const GalleryPage = () => {
     // Muebles de Dormitorio
     {
       id: 5,
-      src: 'https://images.pexels.com/photos/1743229/pexels-photo-1743229.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: '../../marazzi-works/file5.jpeg',
       title: 'Cama King Size Personalizada',
       category: 'dormitorio',
       description: 'Cama king size con cabecera tapizada y base en madera maciza. Diseño exclusivo adaptado a tus necesidades.'
     },
     {
       id: 6,
-      src: 'https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: '../../marazzi-works/file6.jpeg',
       title: 'Closet Empotrado',
       category: 'dormitorio',
       description: 'Closet a medida con sistema de organización optimizado. Aprovecha cada centímetro de tu espacio.'
     },
     {
       id: 7,
-      src: 'https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: '../../marazzi-works/file7.jpeg',
       title: 'Mesa de Noche Elegante',
       category: 'dormitorio',
       description: 'Mesa de noche con cajones y acabado en laca brillante. Funcionalidad y estilo en perfecta armonía.'
     },
     {
       id: 8,
-      src: 'https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: '../../marazzi-works/file8.jpeg',
       title: 'Cómoda Vintage',
       category: 'dormitorio',
       description: 'Cómoda con estilo vintage restaurado. Piezas únicas con historia y carácter.'
@@ -79,21 +79,21 @@ const GalleryPage = () => {
     // Cocinas
     {
       id: 9,
-      src: 'https://images.pexels.com/photos/1599791/pexels-photo-1599791.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: '../../marazzi-works/file9.jpeg',
       title: 'Cocina Integral Moderna',
       category: 'cocina',
       description: 'Cocina integral con isla central y acabados premium. Diseño funcional para el chef moderno.'
     },
     {
       id: 10,
-      src: 'https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: '../../marazzi-works/file10.jpeg',
       title: 'Mueble de Cocina Clásico',
       category: 'cocina',
       description: 'Gabinetes de cocina con diseño tradicional y herrajes de calidad. Elegancia atemporal.'
     },
     {
       id: 11,
-      src: 'https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: '../../marazzi-works/file11.jpeg',
       title: 'Isla de Cocina Premium',
       category: 'cocina',
       description: 'Isla de cocina con superficie de trabajo amplia y almacenamiento integrado.'
@@ -102,28 +102,28 @@ const GalleryPage = () => {
     // Puertas
     {
       id: 12,
-      src: 'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: '../../marazzi-works/file12.jpeg',
       title: 'Puerta de Entrada Principal',
       category: 'puertas',
       description: 'Puerta maciza con tallados artesanales y herrajes de seguridad. Primera impresión memorable.'
     },
     {
       id: 13,
-      src: 'https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: '../../marazzi-works/file13.jpeg',
       title: 'Puertas Interiores',
       category: 'puertas',
       description: 'Set de puertas interiores con acabado en madera natural. Continuidad de estilo en todo el hogar.'
     },
     {
       id: 14,
-      src: 'https://images.pexels.com/photos/1571449/pexels-photo-1571449.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: '../../marazzi-works/file14.jpeg',
       title: 'Puerta Corrediza',
       category: 'puertas',
       description: 'Puerta corrediza con sistema de rieles ocultos. Solución elegante para espacios reducidos.'
     },
     {
       id: 15,
-      src: 'https://images.pexels.com/photos/1571464/pexels-photo-1571464.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: '../../marazzi-works/file15.jpeg',
       title: 'Puerta de Vidrio Templado',
       category: 'puertas',
       description: 'Puerta con paneles de vidrio templado y marco de madera. Luminosidad y privacidad balanceadas.'
@@ -132,25 +132,201 @@ const GalleryPage = () => {
     // Proyectos Especiales
     {
       id: 16,
-      src: 'https://images.pexels.com/photos/1571467/pexels-photo-1571467.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: '../../marazzi-works/file16.jpeg',
       title: 'Biblioteca Personalizada',
       category: 'especiales',
       description: 'Biblioteca de piso a techo con escalera incluida. El sueño de todo amante de los libros.'
     },
     {
       id: 17,
-      src: 'https://images.pexels.com/photos/1571472/pexels-photo-1571472.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: '../../marazzi-works/file17.jpeg',
       title: 'Oficina en Casa',
       category: 'especiales',
       description: 'Escritorio y estanterías integradas para home office. Productividad y estilo en tu hogar.'
     },
     {
       id: 18,
-      src: 'https://images.pexels.com/photos/1571474/pexels-photo-1571474.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: '../../marazzi-works/file18.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 19,
+      src: '../../marazzi-works/file19.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 20,
+      src: '../../marazzi-works/file20.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 21,
+      src: '../../marazzi-works/file21.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 22,
+      src: '../../marazzi-works/file22.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 23,
+      src: '../../marazzi-works/file23.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 24,
+      src: '../../marazzi-works/file24.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 25,
+      src: '../../marazzi-works/file25.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 26,
+      src: '../../marazzi-works/file26.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 27,
+      src: '../../marazzi-works/file27.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 28,
+      src: '../../marazzi-works/file28.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 29,
+      src: '../../marazzi-works/file29.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 30,
+      src: '../../marazzi-works/file30.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 31,
+      src: '../../marazzi-works/file31.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 32,
+      src: '../../marazzi-works/file32.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 33,
+      src: '../../marazzi-works/file33.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 34,
+      src: '../../marazzi-works/file34.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 35,
+      src: '../../marazzi-works/file35.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 36,
+      src: '../../marazzi-works/file36.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 37,
+      src: '../../marazzi-works/file37.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 38,
+      src: '../../marazzi-works/file38.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 39,
+      src: '../../marazzi-works/file39.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 40,
+      src: '../../marazzi-works/file40.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 41,
+      src: '../../marazzi-works/file41.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 42,
+      src: '../../marazzi-works/file42.jpeg',
+      title: 'Bar Personalizado',
+      category: 'especiales',
+      description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
+    },
+    {
+      id: 43,
+      src: '../../marazzi-works/file43.jpeg',
       title: 'Bar Personalizado',
       category: 'especiales',
       description: 'Bar de entretenimiento con almacenamiento para licores y cristalería. Perfecto para reuniones.'
     }
+    
   ];
 
   const categories = [
@@ -265,15 +441,15 @@ const GalleryPage = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-primary-dark/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <ZoomIn className="h-12 w-12 text-white" />
+                    <ZoomIn className="h-12 w-12 text-slate-400" />
                   </div>
-                  <div className="absolute top-4 right-4 bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="absolute top-4 right-4 bg-primary text-white-200 px-3 py-1 rounded-full text-sm font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     Ver Detalles
                   </div>
                 </div>
                 <div className="p-4">
                   <h3 className="text-lg font-semibold text-primary-dark mb-2 line-clamp-2">
-                    {image.title}
+                    {image.id + ' - ' + image.title}
                   </h3>
                   <p className="text-gray-600 text-sm line-clamp-2">
                     {image.description}
@@ -325,7 +501,7 @@ const GalleryPage = () => {
             )}
 
             {/* Image */}
-            <div className="bg-white rounded-lg overflow-hidden">
+            <div className="bg-slate-200 rounded-lg overflow-hidden">
               <img
                 src={selectedImage.src}
                 alt={selectedImage.title}
